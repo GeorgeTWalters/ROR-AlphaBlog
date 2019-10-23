@@ -7,4 +7,7 @@ Rails.application.routes.draw do
   # App about Page
   get 'about', to: 'pages#about'
   
+  # articles Resource
+  resource :articles
+  
 end
