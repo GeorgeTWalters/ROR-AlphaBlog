@@ -8,6 +8,6 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   
   # articles Resource
-  resource :articles
+  resources :articles
   
 end
